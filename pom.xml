@@ -42,6 +42,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
+	
 		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
@@ -65,8 +66,8 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
-	</dependencies>
 
+	</dependencies>
 	<build>
 		<plugins>
 			<plugin>
