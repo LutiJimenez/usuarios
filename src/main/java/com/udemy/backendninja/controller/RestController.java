@@ -13,7 +13,7 @@ public class RestController {
 
 	@GetMapping("/checkrest")
 	public ResponseEntity<ContactModel> checkRest(){
-		ContactModel cm = new ContactModel(2, "Anton", "Fernandez", "12312312", "Madrid");
+		ContactModel cm = new ContactModel(2, "PPPP", "PPPP", "12312312", "Madrid");
 		//return new ResponseEntity<String>("OK", HttpStatus.OK);
 		return new ResponseEntity<ContactModel>(cm, HttpStatus.OK);
 	}
